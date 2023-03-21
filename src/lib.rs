@@ -10,7 +10,7 @@ use error::ContractError;
 
 use crate::contract::{ InstantiateMsg, AdminContract };
 
-const CONTRACT: AdminContract = AdminContract::new();
+const CONTRACT: AdminContract = AdminContract::default();
 
 #[entry_point]
 pub fn instantiate(deps: DepsMut, env: Env, info: MessageInfo, msg: InstantiateMsg) -> StdResult<Response> {

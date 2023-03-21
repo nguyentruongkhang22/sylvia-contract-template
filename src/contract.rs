@@ -10,7 +10,7 @@ pub struct AdminContract<'a> {
 
 #[contract]
 impl AdminContract<'_> {
-  pub const fn new() -> Self {
+  pub const fn default() -> Self {
     Self {
       admins: Map::new("admins"),
     }
