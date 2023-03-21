@@ -2,6 +2,7 @@ pub mod contract;
 pub mod state;
 pub mod responses;
 pub mod error;
+pub mod multitest;
 
 use contract::{ ContractQueryMsg, ContractExecMsg };
 use cosmwasm_std::{ entry_point, DepsMut, Env, MessageInfo, Response, StdResult, Deps, Binary };

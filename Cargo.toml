@@ -49,6 +49,8 @@ schemars = "0.8.10"
 serde = { version = "1.0.145", default-features = false, features = ["derive"] }
 thiserror = { version = "1.0.31" }
 sylvia = "0.2.2"
+anyhow = "1.0.0"
+cw-multi-test = "0.16.2"
 
 [dev-dependencies]
 cw-multi-test = "0.16.2"
